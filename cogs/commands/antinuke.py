@@ -175,7 +175,7 @@ class Antinuke (commands .Cog ):
         container.add_item(ui.Separator())
 
         # Main info with bot avatar as thumbnail
-        main_info = f"Your server __**already has Antinuke enabled.**__\n\nCurrent Status: <:enabled:1204107832232775730> Enabled\nTo Disable use `antinuke disable`"
+        main_info = f"Your server __**already has Antinuke enabled.**__\n\nCurrent Status: <:enable_yes:1372375008441143417> Enabled\nTo Disable use `antinuke disable`"
 
         if self.bot.user.avatar:
           container.add_item(

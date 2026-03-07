@@ -168,7 +168,7 @@ class Giveaway(Cog):
             if not entries_list:
                 container = ui.Container(accent_color=None)
                 container.add_item(ui.TextDisplay(
-                    f"<:gift:1427669198108098693> **{prize}** <:gift:1427669198108098693>\n\n"
+                    f"<:dot:1479361908766281812> **{prize}** <:dot:1479361908766281812>\n\n"
                     f"<:dots:1427673823884611646> **Winners:** No valid entries\n"
                     f"<:dots:1427673823884611646> **Ended:** <t:{int(datetime.datetime.now().timestamp())}:R>\n"
                     f"<:dots:1427673823884611646> **Hosted by:** <@{host_id}>\n\n"
@@ -191,7 +191,7 @@ class Giveaway(Cog):
 
             container = ui.Container(accent_color=None)
             container.add_item(ui.TextDisplay(
-                f"<:gift:1427669198108098693> **{prize}** <:gift:1427669198108098693>\n\n"
+                f"<:dot:1479361908766281812> **{prize}** <:dot:1479361908766281812>\n\n"
                 f"<:dots:1427673823884611646> **Winners:** {', '.join(winner_mentions)}\n"
                 f"<:dots:1427673823884611646> **Ended:** <t:{int(datetime.datetime.now().timestamp())}:R>\n"
                 f"<:dots:1427673823884611646> **Hosted by:** <@{host_id}>\n\n"
@@ -232,7 +232,7 @@ class Giveaway(Cog):
             
             channel_container = ui.Container(accent_color=None)
             channel_container.add_item(ui.TextDisplay(
-                f"Congrats! <a:giveawayyes:1427679931911110769> {', '.join(winner_links)}, you've won the **{prize}** <:heart4:1426451134666772534>, hosted by {host_link}"
+                f"Congrats! <a:giveawayyes:1427679931911110769> {', '.join(winner_links)}, you've won the **{prize}** <:heart4:1479810261300023367>, hosted by {host_link}"
             ))
             
             if giveaway_msg:
@@ -255,7 +255,7 @@ class Giveaway(Cog):
                     if user:
                         dm_container = ui.Container(accent_color=None)
                         dm_container.add_item(ui.TextDisplay(
-                            f"<a:giveawayyes:1427679931911110769> You won **{prize}** in **{guild.name}** <:heart4:1426451134666772534>"
+                            f"<a:giveawayyes:1427679931911110769> You won **{prize}** in **{guild.name}** <:heart4:1479810261300023367>"
                         ))
                         
                         if giveaway_msg:
@@ -331,7 +331,7 @@ class Giveaway(Cog):
             return await ctx.reply(view=view)
 
         container = ui.Container(accent_color=None)
-        container.add_item(ui.TextDisplay(f"<:gift:1427669198108098693> **{prize}** <:gift:1427669198108098693>"))
+        container.add_item(ui.TextDisplay(f"<:dot:1479361908766281812> **{prize}** <:dot:1479361908766281812>"))
         container.add_item(ui.Separator())
         container.add_item(ui.TextDisplay(
             f"<:dots:1427673823884611646> **Winners:** {winners}\n"
@@ -476,7 +476,7 @@ class Giveaway(Cog):
                     winner_links.append(f"<@{winner[0]}>")
             
             container = ui.Container(accent_color=None)
-            container.add_item(ui.TextDisplay(f"<:gift:1427669198108098693> **New Winners!** <:gift:1427669198108098693>"))
+            container.add_item(ui.TextDisplay(f"<:dot:1479361908766281812> **New Winners!** <:dot:1479361908766281812>"))
             container.add_item(ui.Separator())
             container.add_item(ui.TextDisplay(
                 f"**Prize:** {giveaway[5]}\n"
@@ -495,7 +495,7 @@ class Giveaway(Cog):
                     if user and guild:
                         dm_container = ui.Container(accent_color=None)
                         dm_container.add_item(ui.TextDisplay(
-                            f"<a:giveawayyes:1427679931911110769> You won **{giveaway[5]}** in **{guild.name}** <:heart4:1426451134666772534>"
+                            f"<a:giveawayyes:1427679931911110769> You won **{giveaway[5]}** in **{guild.name}** <:heart4:1479810261300023367>"
                         ))
                         
                         if target_message:

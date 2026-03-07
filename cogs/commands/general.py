@@ -387,7 +387,7 @@ class General(commands.Cog):
 
         container.add_item(discord.ui.Separator())
 
-        presence_stats = f"<:dot:1409124623622082570> **Online:** {online}\n<:dot:1409124623622082570> **Do Not Disturb:** {dnd}\n<:dot:1409124623622082570> **Idle:** {idle}\n<:dot:1409124623622082570> **Offline:** {offline}"
+        presence_stats = f"<:dot:1479361908766281812>  **Online:** {online}\n<:dot:1479361908766281812>  **Do Not Disturb:** {dnd}\n<:dot:1479361908766281812>  **Idle:** {idle}\n<:dot:1479361908766281812>  **Offline:** {offline}"
 
         if ctx.guild.icon:
             container.add_item(

@@ -137,13 +137,13 @@ class PurgeAmountModal(ui.Modal, title="Purge Amount"):
             amount = int(self.amount_input.value)
             if amount < 1 or amount > 2000:
                 await interaction.response.send_message(
-                    "<:dot:1409124623622082570> Amount must be between 1 and 2000.", 
+                    "<:dot:1479361908766281812>  Amount must be between 1 and 2000.", 
                     ephemeral=True
                 )
                 return
         except ValueError:
             await interaction.response.send_message(
-                "<:dot:1409124623622082570> Please enter a valid number.", 
+                "<:dot:1479361908766281812>  Please enter a valid number.", 
                 ephemeral=True
             )
             return
@@ -152,7 +152,7 @@ class PurgeAmountModal(ui.Modal, title="Purge Amount"):
             user_input = self.user_input.value.strip()
             if not user_input:
                 await interaction.response.send_message(
-                    "<:dot:1409124623622082570> Please enter a user ID or mention.", 
+                    "<:dot:1479361908766281812>  Please enter a user ID or mention.", 
                     ephemeral=True
                 )
                 return
@@ -172,7 +172,7 @@ class PurgeAmountModal(ui.Modal, title="Purge Amount"):
             
             if not user:
                 await interaction.response.send_message(
-                    "<:dot:1409124623622082570> User not found. Please enter a valid user ID or mention.", 
+                    "<:dot:1479361908766281812>  User not found. Please enter a valid user ID or mention.", 
                     ephemeral=True
                 )
                 return
@@ -181,7 +181,7 @@ class PurgeAmountModal(ui.Modal, title="Purge Amount"):
             search_text = self.text_input.value.strip()
             if len(search_text) < 3:
                 await interaction.response.send_message(
-                    "<:dot:1409124623622082570> Search text must be at least 3 characters long.", 
+                    "<:dot:1479361908766281812>  Search text must be at least 3 characters long.", 
                     ephemeral=True
                 )
                 return
@@ -300,13 +300,13 @@ class PurgeView(ui.LayoutView):
         if self.bot.user.avatar:
             self.container.add_item(
                 ui.Section(
-                    ui.TextDisplay("<:dot:1409124623622082570> **Advanced message management system**\n<:dot:1409124623622082570> **Supports up to 2000 messages per operation**\n<:dot:1409124623622082570> **Multiple filtering options available**\n<:dot:1409124623622082570> **Safe and logged operations**"),
+                    ui.TextDisplay("<:dot:1479361908766281812>  **Advanced message management system**\n<:dot:1479361908766281812>  **Supports up to 2000 messages per operation**\n<:dot:1479361908766281812>  **Multiple filtering options available**\n<:dot:1479361908766281812>  **Safe and logged operations**"),
                     accessory=ui.Thumbnail(self.bot.user.avatar.url)
                 )
             )
         else:
             self.container.add_item(
-                ui.TextDisplay("<:dot:1409124623622082570> **Advanced message management system**\n<:dot:1409124623622082570> **Supports up to 2000 messages per operation**\n<:dot:1409124623622082570> **Multiple filtering options available**\n<:dot:1409124623622082570> **Safe and logged operations**")
+                ui.TextDisplay("<:dot:1479361908766281812>  **Advanced message management system**\n<:dot:1479361908766281812>  **Supports up to 2000 messages per operation**\n<:dot:1479361908766281812>  **Multiple filtering options available**\n<:dot:1479361908766281812>  **Safe and logged operations**")
             )
         
         self.container.add_item(ui.Separator())
@@ -326,7 +326,7 @@ class PurgeView(ui.LayoutView):
         self.container.add_item(ui.TextDisplay("# Purge Operation Completed"))
         self.container.add_item(ui.Separator())
         
-        operation_details = f"<:dot:1409124623622082570> **Operation Type:** {self.purged_operation}\n<:dot:1409124623622082570> **Messages Processed:** {self.purged_amount}\n<:dot:1409124623622082570> **Channel:** {self.ctx.channel.mention}\n<:dot:1409124623622082570> **Executed:** <t:{int(time.time())}:R>"
+        operation_details = f"<:dot:1479361908766281812>  **Operation Type:** {self.purged_operation}\n<:dot:1479361908766281812>  **Messages Processed:** {self.purged_amount}\n<:dot:1479361908766281812>  **Channel:** {self.ctx.channel.mention}\n<:dot:1479361908766281812>  **Executed:** <t:{int(time.time())}:R>"
         
         if self.bot.user.avatar:
             self.container.add_item(

@@ -1887,13 +1887,13 @@ class Extra (commands .Cog ):
     if self.bot.user.avatar:
         ping_container.add_item(
             discord.ui.Section(
-                discord.ui.TextDisplay(f"**Latency Information:**\n<:dot:1409124623622082570> **WebSocket Ping:** {websocket_ping}ms\n<:dot:1409124623622082570> **Message Latency:** {message_latency}ms\n<:dot:1409124623622082570> **Total Response:** {total_response}ms"),
+                discord.ui.TextDisplay(f"**Latency Information:**\n<:dot:1479361908766281812>  **WebSocket Ping:** {websocket_ping}ms\n<:dot:1479361908766281812>  **Message Latency:** {message_latency}ms\n<:dot:1479361908766281812>  **Total Response:** {total_response}ms"),
                 accessory=discord.ui.Thumbnail(self.bot.user.avatar.url)
             )
         )
     else:
         ping_container.add_item(
-            discord.ui.TextDisplay(f"**Latency Information:**\n<:dot:1409124623622082570> **WebSocket Ping:** {websocket_ping}ms\n<:dot:1409124623622082570> **Message Latency:** {message_latency}ms\n<:dot:1409124623622082570> **Total Response:** {total_response}ms")
+            discord.ui.TextDisplay(f"**Latency Information:**\n<:dot:1479361908766281812>  **WebSocket Ping:** {websocket_ping}ms\n<:dot:1479361908766281812>  **Message Latency:** {message_latency}ms\n<:dot:1479361908766281812>  **Total Response:** {total_response}ms")
         )
 
     view.add_item(ping_container)
@@ -1913,13 +1913,13 @@ class Extra (commands .Cog ):
     if self.bot.user.avatar:
         updated_ping_container.add_item(
             discord.ui.Section(
-                discord.ui.TextDisplay(f"**Latency Information:**\n<:dot:1409124623622082570> **WebSocket Ping:** {websocket_ping}ms\n<:dot:1409124623622082570> **Message Latency:** {message_latency}ms\n<:dot:1409124623622082570> **Total Response:** {total_response}ms"),
+                discord.ui.TextDisplay(f"**Latency Information:**\n<:dot:1479361908766281812>  **WebSocket Ping:** {websocket_ping}ms\n<:dot:1479361908766281812>  **Message Latency:** {message_latency}ms\n<:dot:1479361908766281812>  **Total Response:** {total_response}ms"),
                 accessory=discord.ui.Thumbnail(self.bot.user.avatar.url)
             )
         )
     else:
         updated_ping_container.add_item(
-            discord.ui.TextDisplay(f"**Latency Information:**\n<:dot:1409124623622082570> **WebSocket Ping:** {websocket_ping}ms\n<:dot:1409124623622082570> **Message Latency:** {message_latency}ms\n<:dot:1409124623622082570> **Total Response:** {total_response}ms")
+            discord.ui.TextDisplay(f"**Latency Information:**\n<:dot:1479361908766281812>  **WebSocket Ping:** {websocket_ping}ms\n<:dot:1479361908766281812>  **Message Latency:** {message_latency}ms\n<:dot:1479361908766281812>  **Total Response:** {total_response}ms")
         )
 
     updated_view.add_item(updated_ping_container)

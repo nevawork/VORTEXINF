@@ -140,7 +140,7 @@ class TodoList(commands.Cog):
                     if todos:
                         todo_text = ""
                         for todo_id, task in todos:
-                            todo_text += f"<:dot:1409124623622082570> {task} [{todo_id}]\n"
+                            todo_text += f"<:dot:1479361908766281812>  {task} [{todo_id}]\n"
                         container.add_item(ui.TextDisplay(todo_text.strip()))
                         
                     if total_pages > 1:

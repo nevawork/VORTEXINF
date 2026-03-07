@@ -88,7 +88,7 @@ class StatsLayout(ui.LayoutView):
         self.container.add_item(ui.TextDisplay(f"<:icon_categories:1373173618858659901> **Commands**\nTotal: **{self.commands_count}** | Slash: **{self.slash_commands}**"))
         self.container.add_item(ui.TextDisplay(f"<:icon_ignore:1373173575078379590> **Libraries Used**\nDiscord Library: **[discord.py](https://discordpy.readthedocs.io/en/stable/)**\nTotal Libraries: **{self.total_libraries}**"))
 
-        self.container.add_item(ui.TextDisplay(f"<:heart4:1426451134666772534> **Summary**\n**Servers:** {self.guild_count} | **Users:** {self.total_users}"))
+        self.container.add_item(ui.TextDisplay(f"<:heart4:1479810261300023367> **Summary**\n**Servers:** {self.guild_count} | **Users:** {self.total_users}"))
 
         self.container.add_item(ui.Separator())
         self.container.add_item(self.select_menu)
