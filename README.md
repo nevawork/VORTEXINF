@@ -30,7 +30,7 @@
 - **Utility & Fun**: Feature-rich utility commands (Avatar, Userinfo, Membercount) and engaging fun features.
 - **Auto-Initializing**: Seamless setup with automatic database and configuration generation.
 
-## 🚀 Quick Setup
+## Quick Setup
 
 1. **Install dependencies**
    ```bash
