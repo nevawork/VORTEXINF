@@ -105,8 +105,7 @@ class Extraowner (commands .Cog ):
             view.add_item(container)
             return await ctx .send (view=view)
 
-        Yuna =['767979794411028491','767979794411028491']
-        if ctx .author .id !=ctx .guild .owner_id and str (ctx .author .id )not in Yuna :
+        if ctx .author .id !=ctx .guild .owner_id :
             view = ui.LayoutView()
             container = ui.Container(accent_color=None)
             container.add_item(ui.TextDisplay("# <:icon_cross:1372375094336425986> Access Denied"))
