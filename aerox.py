@@ -358,9 +358,6 @@ async def on_interaction (interaction :discord .Interaction ):
 
 @client .event 
 async def on_command_completion (context :commands .Context )->None :
-    if context .author .id ==1070619070468214824 :
-        return 
-
     full_command_name =context .command .qualified_name 
     split =full_command_name .split ("\n")
     executed_command =str (split [0 ])
