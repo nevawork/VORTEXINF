@@ -1,9 +1,6 @@
 <div align="center">
 
-## Credits
-Credit: NEVA TAG 3pa8
-
-# 🤖 Yuna Discord Bot — Component V2
+# 🤖 VORTEX|INF Discord Bot — Component V2
 
 *A premium multipurpose Discord bot featuring high-end Antinuke, Automod, and next-gen UI.*
 
@@ -15,9 +12,9 @@ Credit: NEVA TAG 3pa8
 
 ---
 
-## ✨ What is Yuna?
+## ✨ What is VORTEX|INF?
 
-**Yuna** is a state-of-the-art multipurpose Discord bot designed for performance and security. Powered by the **Component V2** architecture, Yuna delivers a premium user experience with sleek layouts and modern utility features. 
+**VORTEX|INF** is a state-of-the-art multipurpose Discord bot designed for performance and security. Powered by the **Component V2** architecture, VORTEX|INF delivers a premium user experience with sleek layouts and advanced functionality.
 
 **Current Stats:**
 - 🛠️ **99 Cogs** loaded with specialized logic.
@@ -48,7 +45,7 @@ Credit: NEVA TAG 3pa8
 
 4. **Run the bot**
    ```bash
-   python aerox.py
+   python main.py
    ```
 
 ## ⚙️ Configuration Guide
@@ -71,35 +68,13 @@ BOT_PREFIX=!
 
 ### 👨‍💻 Development Team
 
-**Developer:** Aegis  
-**Discord:** `itsfizys`  
-**Community:** AeroX Development  
-**Discord Server:** [discord.gg/aerox](https://discord.gg/aerox)
+**Developer:** NEVA 3pa8
+**Discord:** Watch https://discord.gg/98qaRWnKuH
 
 ---
 
-### 🏛️ Original Olympus Project
+**Made with ❤️ by NEVA 3pa8**
 
-**🛡️ Olympus Bot License Agreement**
-
-Based on the original Olympus Bot by Olympus Development.  
-**Original Repository:** [olympus-bot](https://github.com/sonujana26/olympus-bot)  
-**Discord Server:** [discord.gg/odx](https://discord.gg/odx) (Olympus Server)
-
-*Original Olympus Bot © 2025 Olympus Development — All rights reserved.*
-
-**License Terms:**
-- Commercial Use: ❌ Not allowed without paid license from Olympus Team
-- Redistribution: ❌ Forbidden. Do not host this code elsewhere  
-- Modification: ❌ Not allowed unless licensed
-- Patents/Derivatives: ❌ No rights to publish forks under any name
-
-For licensing inquiries: https://discord.gg/odx
-
----
-
-**Made with ❤️ by [AeroX Development](https://discord.gg/aerox)**
-
-*Based on Olympus • Powered by Python & Discord.py • Component V2 Interface*
+*Powered by Python & Discord.py • Component V2 Interface*
 
 </div>
